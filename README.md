@@ -10,7 +10,14 @@ A continuación encontrarás una guía rápida con imágenes para comprender el 
 
 Si utilizas **Windows Defender**, la instalación no presentará inconvenientes. Puede aparecer en pantalla un aviso de análisis durante la instalación, lo cual es un comportamiento **normal**.
 
-En caso de que tengas **Avast** u otro antivirus que muestre advertencias, recomendamos **desactivarlo temporalmente durante la instalación o actualización** y posteriormente añadir las siguientes rutas como **excepciones**:
+En caso de que tengas **Avast** u otro antivirus que muestre advertencias, recomendamos **desactivarlo temporalmente durante la instalación o actualización** y posteriormente añadir **una de las dos opciones** como excepción:
+
+- **Opción 1 — Ruta global (recomendada):** añade la carpeta raíz de la aplicación como excepción:
+```
+C:\Users\TU_USUARIO\AppData\Local\Programs\pdfina\
+```
+
+- **Opción 2 — Rutas individuales:** añade las rutas específicas listadas a continuación como excepciones:
 ```
 C:\Users\TU_USUARIO\AppData\Local\Programs\pdfina\resources\app.asar.unpacked\resources\app\microservicios\pdf-a-word\dist\mservice-paw.exe
 ```
